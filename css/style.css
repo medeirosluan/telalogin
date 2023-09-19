@@ -96,14 +96,16 @@ button{
 
 }
 
+.autor{
+    font-family: minha fonte;
+    margin-top: 50px;
+    color: white;;
+}
 button:hover{
     cursor: pointer;
     background-color: #f2a71bad;
     transform: scale(1.1);
     color: white;
-    
-    
-   
 }
 
 
