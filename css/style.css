@@ -1,3 +1,7 @@
+@font-face {
+    font-family: minha fonte;
+    src: url(../font/monday_banana/Monday\ Banana.otf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +13,7 @@ body{
     align-items: center;
     height: 100vh;
     background-color: #011F26;
+    
 }
 
 .container{
@@ -72,6 +77,7 @@ body{
     background-color:rgba(241, 230, 230, 0.123);
     color: white;
     border-radius: 3px;
+    font-family: minha fonte;
 }
 
 ::placeholder{
@@ -86,6 +92,8 @@ button{
     border: none;
     border-radius: 5px;
     font-size: 20px;
+    font-family: minha fonte;
+
 }
 
 button:hover{
