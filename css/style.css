@@ -2,6 +2,12 @@
     font-family: minha fonte;
     src: url(../font/monday_banana/Monday\ Banana.otf);
 }
+
+:root{
+    --cor--botao--principal:#F2A71B;
+    --fundo-container:#f2a71ba6
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +25,7 @@ body{
 .container{
     width: 860px;
     height: 650px;
-    background-color: #f2a71ba6;
+    background-color: var(--fundo-container);
     display: flex;
     padding: 40px 40px;
     border-radius: 20px;
@@ -88,7 +94,7 @@ button{
     width:40% ;
     padding: 7px;
     margin: 15px auto;
-    background-color: #F2A71B;
+    background-color: var(--botao);
     border: none;
     border-radius: 5px;
     font-size: 20px;
