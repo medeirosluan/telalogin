@@ -94,7 +94,7 @@ button{
     width:40% ;
     padding: 7px;
     margin: 15px auto;
-    background-color: var(--botao);
+    background-color: var(--cor--botao--principal);
     border: none;
     border-radius: 5px;
     font-size: 20px;
